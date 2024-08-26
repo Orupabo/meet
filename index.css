@@ -4,6 +4,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: "IBM Plex Mono", system-ui;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
 }
 .wrapper{
     width: 100%;
@@ -113,7 +118,7 @@
     justify-content: center;
 }
 .img{
-    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTUKLTQz_3hies2U1ZT85FUS1ExP6bVEdyw&s);
+    /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTUKLTQz_3hies2U1ZT85FUS1ExP6bVEdyw&s); */
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
