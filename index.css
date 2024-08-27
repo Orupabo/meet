@@ -119,12 +119,16 @@ a{
 }
 .img{
     /* background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTUKLTQz_3hies2U1ZT85FUS1ExP6bVEdyw&s); */
-    background-position: center;
+    /* background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain; */
     border-radius: 100px;
     width: 60%;
     height: 26%;
+}
+.pic{
+    width: 100px;
+    border-radius: 50%;
 }
 .right{
     width: 80%;
