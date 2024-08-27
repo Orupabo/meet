@@ -24,57 +24,59 @@
             </div>
             <div class="mid">
                 <i class="bi bi-search"></i>
-                <input type="text" name="" id="" placeholder="Search Meet username...">
-                <button>Search</button>
+                <input type="text" name="searchInput" id="searchInput" placeholder="Search Meet username...">
+                <button class="btnSearch" style="cursor: pointer;">Search</button>
             </div>
             <div class="bottom">
                 <div class="left">
-                    <div class="img"></div>
+                    <div id="profilePic" class="img">
+                        <img  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGTUKLTQz_3hies2U1ZT85FUS1ExP6bVEdyw&s" alt="" >
+                    </div>
                 </div>
                 <div class="right">
                     <div class="topright">
                         <div class="info">
                             <div class="name">
-                                <h3>Osiebebaramabo</h3>
-                                <p>Ofori</p>
+                                <h3 id="name_user">Osiebebaramabo</h3>
+                                <p id="username">Ofori</p>
                             </div>
-                            <p>Joined 25 Jan 2024</p>
+                            <p id="date">Joined 25 Jan 2024</p>
                         </div>
-                        <p>This profile has no bio</p>
+                        <p id="bio">This profile has no bio</p>
                     </div>
                     <div class="midright">
                         <div class="opts">
-                            <p>Region</p>
-                            <h3>B</h3>
+                            <p>Repo</p>
+                            <h3 id="repo">9</h3>
                         </div>
                         <div class="opts">
                             <p>followers</p>
-                            <h3>3938</h3>
+                            <h3 id="followers">3938</h3>
                         </div>
                         <div class="opts">
                             <p>following</p>
-                            <h3>9</h3>
+                            <h3 id="following">9</h3>
                         </div>
                     </div>
                     <div class="downright">
                         <div class="opt">
                             <div class="leftopt">
                                 <i class="bi bi-geo-alt-fill"></i>
-                                <p>San Fransisco</p>
+                                <p id="location">San Fransisco</p>
                             </div>
                             <div class="rightopt">
                                 <i class="bi bi-twitter"></i>
-                                <p>Not Available</p>
+                                <p id="twitter" style="cursor: pointer;">Not Available</p>
                             </div>
                         </div>
                         <div class="opt">
                             <div class="leftopt">
                                 <i class="bi bi-link-45deg"></i>
-                                <p>http://github.bing</p>
+                                <p id="githib">http://github.bing</p>
                             </div>
                             <div class="rightopt">
                                 <i class="bi bi-person-fill-check"></i>
-                                <p>Male</p>
+                                <p id="gender">Male</p>
                             </div>
                         </div>
                     </div>
@@ -83,7 +85,7 @@
         </div>
     </div>
     
-    <script src="index.js">
+    <script src="js/index.js">
 
     </script>
 </body>
